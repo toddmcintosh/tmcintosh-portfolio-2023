@@ -44,9 +44,16 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <h3 className="font-thin text-lg capitalize">{item.title}</h3>
+              {item?.company !== undefined && (
+                <p className="font-thin text-xs dark:text-xs !mt-0 text-orange-400">
+                  {item?.company}
+                </p>
+              )}
+              <p className="font-thin text-xs dark:text-xs !mt-0 dark:mb-4">
+                {item.location}
+              </p>
+              <p className="!mt-1 !font-normal text-xs dark:text-sm dark:leading-6 dark:text-white/50">
                 {item.description}
               </p>
             </VerticalTimelineElement>
