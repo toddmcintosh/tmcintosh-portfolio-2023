@@ -21,6 +21,11 @@ export const links = [
     hash: "#projects",
   },
   {
+    name: "History",
+    hash: "#history",
+  },
+
+  {
     name: "Skills",
     hash: "#skills",
   },
@@ -94,13 +99,9 @@ export const experiencesData = [
     company: "Resonance Media + Design",
     location: "Markham, ON",
     description: `Built and supported numerous web applications for 30+ clients, as well as some marketing
-web sites.
-• Manage Vercel, Linode, and Planetscale accounts for React applications, VPS (Windows
-Server/Plesk) for .NET applications, and client domains via OpenSRS registry service
-Projects of Note:
-• Elearnology Inc - Online Leader LMS,
-• Parks & Rec Ontario HIGH FIVE National Database • SOS4Kids HomeAloneCourse.com • George Brown College Choices Career Course • Vanpak Wholesaler • Engine Control Systems Distributor Warranty Portal • Datamining Application for Blue Lime Consulting • Digilease Online Lease Management System • CentreIsland.ca eCommerce Website
-(2007-2011)`,
+web sites. Manage Vercel, Linode, and Planetscale accounts for React applications, VPS (Windows
+Server/Plesk) for .NET applications, and client domains via OpenSRS registry service.
+`,
     icon: React.createElement(FaReact),
     date: "2006-present",
   },
@@ -108,25 +109,105 @@ Projects of Note:
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Click To Learn LMS",
+    company: "Elearnology Inc.",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I rebuilt the Online Leader platform in 2023 to run on Vercel, and Planetscale. It is rewritten using React/Next.js and Prisma. It is a full-featured LMS with xAPI support.",
+    tags: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Planetscale (MySQL)",
+      "Tailwind",
+      "Prisma",
+      "Vercel",
+      "S3 Object Storage",
+      "Stripe",
+    ],
+    imageUrl: "/ctl2.jpg",
   },
   {
-    title: "rmtDev",
+    title: "Online Leader LMS",
+    company: "Elearnology Inc.",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked on this project for eight years and added many features and integrations. It provided training courses to many clients, including City of Toronto, Markham, and the County of Brant.",
+    tags: [
+      "ASP.NET",
+      "MSSQL",
+      "Zapier",
+      "Vue.js",
+      "jQuery",
+      "Bootstrap",
+      "Entity Framework",
+      "Cloudflare",
+      "Stripe",
+    ],
+    imageUrl: "/onlineleader.jpg",
   },
   {
-    title: "Word Analytics",
+    title: "Parks & Rec Ontario HIGH FIVE National Database",
+    company: "Elearnology Inc.",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I provided support services for this legacy web application for 4 years. It was a challenging site to maintain due to the complexity of the code and the lack of documentation.",
+    tags: ["ASP.NET", "MSSQL", "Stored Procedures", "Table Adapters", "Legacy"],
+    imageUrl: "/highfive.jpg",
+  },
+  {
+    title: "George Brown College 'Choices' Career Course",
+    company: "Elearnology Inc.",
+    description:
+      "I created and configured the Choices course on George Brown College's Canvas LMS system. I also enhanced the course by building a custom service on an external server to generate AODA-compliant Student Action Plan pdfs.",
+    tags: [
+      "Javscript",
+      ".NET",
+      "SQL",
+      "REST API",
+      "Apache FOP",
+      "PDF Generation",
+      "AODA Compliance",
+    ],
+    imageUrl: "/gb3.jpg",
+  },
+  {
+    title: "Dottlers Automated Video Rendering System",
+    company: "Resonance Media + Design",
+    description:
+      "I built this automated video rendering solution via Python and Blender3D on an AWS EC2 instance. It allowed automated rendering of the shoe model given any texture and colour combination.",
+    tags: ["AWS", "Linux", "Python", "EC2", "Automation", "Bash", "Blender3D"],
+    imageUrl: "/DottlersShoeHighRes.png",
+  },
+  {
+    title: "Engine Control Systems Distributor Warranty Portal",
+    company: "Resonance Media + Design",
+    description:
+      "I built and supported this web application for 6 years. It allowed ECS to bring their warranty management process online and provided great value.",
+    tags: ["ASP.NET", "MSSQL", "Table Adapters", "Legacy"],
+    imageUrl: "/cdti.jpg",
+  },
+
+  {
+    title: "Centreville Amusement Park Web Site (centreisland.ca)",
+    company: "Resonance Media + Design",
+    description:
+      "I built this app and supported it for three years. It was the official marketing site for Centreville Amusement Park on Toronto Island. I also built a custom integration with the Moneris payment gateway to allow for online ticket sales, with print tickets that had dynamically generated barcodes.",
+    tags: [
+      "ASP.NET",
+      "MSSQL",
+      "eCommerce",
+      "Moneris",
+      "Verified By VISA",
+      "Mastercard Secure",
+      "Legacy",
+    ],
+    imageUrl: "/centreville.jpg",
+  },
+  {
+    title: "Cineplex Galaxy Theatres (cineplex.ca",
+    company: "Zeppelin Communications Inc.",
+    description:
+      "Contributed to the design and build of the national web site for Cineplex Galaxy Theatres. Became the lead developer on the project, and ccontributed daily content updates, and feature additions for over three years. ",
+    tags: ["ASP.NET", "MSSQL", "Stored Procedures", "Table Adapters", "Legacy"],
+    imageUrl: "/cineplex_site.jpg",
   },
 ] as const;
 

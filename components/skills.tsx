@@ -59,7 +59,7 @@ const SkillGroup = (props: SkillGroupProps) => {
       </div> */}
       {/* <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 mb-8"> */}
       <motion.li
-        className="bg-orange block dark:text-xs borderBlack dark:rounded-xl px-5 py-3 dark:bg-orange-400 dark:text-black dark:font-bold dark:lowercase dark:tracking-widest"
+        className="bg-orange-400 block dark:text-xs borderBlack rounded-xl px-5 py-3 dark:bg-orange-400 dark:text-black dark:font-bold dark:lowercase dark:tracking-widest"
         variants={fadeInAnimationVariants}
         key={0}
         initial="initial"
@@ -75,7 +75,7 @@ const SkillGroup = (props: SkillGroupProps) => {
       </motion.li>
       {props.data.map((skill, index) => (
         <motion.li
-          className="bg-white dark:text-xs borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+          className="bg-gray-200 dark:text-xs borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
           key={index + 1}
           variants={fadeInAnimationVariants}
           initial="initial"

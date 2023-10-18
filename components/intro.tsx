@@ -62,8 +62,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-medium block text-6xl mb-4">Hi! I'm Todd.</span>
-        <span className="mb-6 block">
+        <span className="font-medium block text-6xl mb-4 text-black-800 dark:text-blue-100">
+          Hi! I'm Todd.
+        </span>
+        <span className="mb-6 block text-gray-600 dark:text-blue-100">
           <span className="">I'm a </span>
           <span className="font-bold ">full-stack developer </span>
           <span className="">with </span>
@@ -71,13 +73,13 @@ export default function Intro() {
           <span className="">of experience.</span>
         </span>
         <span className="text-xl mb-16 block border rounded-full border-white border-opacity-20 py-2 px-4">
-          <span className="font-thin text-purple-100">
+          <span className="font-light text-blue-800 dark:text-blue-100">
             <span className="">I love building applications that</span>
-            <span className="m-2 font-bold bg-black inline-block p-2  px-4 rounded-full bg-opacity-20">
+            <span className="text-base m-2 font-bold bg-black inline-block p-2  px-4 rounded-full bg-opacity-10">
               DO REAL WORK
             </span>
             <span className="">and sites that</span>
-            <span className="m-2 font-bold bg-black inline-block py-2 px-4 rounded-full bg-opacity-20">
+            <span className="text-base m-2 font-bold bg-black inline-block py-2 px-4 rounded-full bg-opacity-10">
               TELL GREAT STORIES.
             </span>
           </span>

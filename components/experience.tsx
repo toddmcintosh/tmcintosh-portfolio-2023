@@ -44,7 +44,7 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-thin text-lg capitalize">{item.title}</h3>
+              <h3 className="font-light text-lg capitalize">{item.title}</h3>
               {item?.company !== undefined && (
                 <p className="font-thin text-xs dark:text-xs !mt-0 text-orange-400">
                   {item?.company}
