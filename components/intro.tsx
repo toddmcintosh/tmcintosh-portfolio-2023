@@ -72,14 +72,14 @@ export default function Intro() {
           <span className="font-bold">20 years </span>
           <span className="">of experience.</span>
         </span>
-        <span className="text-xl mb-16 block border rounded-full border-white border-opacity-20 py-2 px-4">
+        <span className="text-xl mb-16 block border rounded-lg md:rounded-full border-white border-opacity-20 py-2 px-4">
           <span className="font-light text-blue-800 dark:text-blue-100">
             <span className="">I love building applications that</span>
-            <span className="text-base m-2 font-bold bg-black inline-block p-2  px-4 rounded-full bg-opacity-10">
+            <span className="text-base m-2 font-bold bg-white inline-block p-2  px-4 rounded-full bg-opacity-10">
               DO REAL WORK
             </span>
             <span className="">and sites that</span>
-            <span className="text-base m-2 font-bold bg-black inline-block py-2 px-4 rounded-full bg-opacity-10">
+            <span className="text-base m-2 font-bold bg-white inline-block py-2 px-4 rounded-full bg-opacity-10">
               TELL GREAT STORIES.
             </span>
           </span>
