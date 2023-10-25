@@ -228,7 +228,7 @@ export default function History() {
           <li className={parentLI}>
             <div className="md:float-right block w-full md:w-64 md:ml-8 mb-8 rounded mt-2 b border border-black/0 overflow-clip">
               <Image
-                src="/higfive.jpg"
+                src="/highfive.jpg"
                 width={300}
                 height={300}
                 alt="HIGH FIVE Page"
