@@ -34,13 +34,13 @@ export default function History() {
           music and the recording arts, and completed a diploma program at the
           Ontario Institute of Audio Recording Technology. Following that I
           secured a position at a studio in Toronto, and worked on many album
-          projects as and Audio Engineer, including a Juno Award winning album
+          projects as an Audio Engineer, including a Juno Award winning album
           for Toronto Mass Choir.
         </p>
         <p className="mb-6">
           During that position, the opportunity arose to contribute to an online
           eCommerce Music web site to sell albums (physical CD's) for the
-          company. A more experience developer built the initial version, while
+          company. A more experienced developer built the initial version, while I 
           worked on the front-end dev and became the site maintainer.
         </p>
         <CallOut>
@@ -177,7 +177,7 @@ export default function History() {
             <ul className={listStyle}>
               <li className={listItem}>
                 Rebuilt entire Online Leader LMS as a serverless platform using
-                Next.Js, Vercel an Planetscale (MySQL)
+                Next.Js, Vercel, Planetscale (MySQL), with S3 object store on Linode.
               </li>
               <li className={listItem}>
                 Migrated user data from MSSQL database to MySQL database in
@@ -193,7 +193,7 @@ export default function History() {
                   <li className={listItem}>Moving to a more modern stack</li>
                   <li className={listItem}>Improving performance</li>
                   <li className={listItem}>
-                    Moving from monolithic server hosting to separate vendors
+                    Moving from monolithic server hosting to separate specialist vendors
                     for each domain (app, db, object store)
                   </li>
                 </ul>
@@ -412,7 +412,7 @@ export default function History() {
             </span>
             <ul className={listStyle}>
               <li className={listItem}>
-                I created a new web site for Centre Island Amusement Park, which
+                I created a new web site for Centreville Amusement Park, which
                 required guest information and marketing details, as well as a
                 fully functioning eCommerce Ticket Sales system.
               </li>

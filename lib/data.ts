@@ -81,7 +81,7 @@ export const experiencesData = [
     company: "Zeppelin Communications",
     location: "Toronto, ON",
     description:
-      "Initally as front-end developer, and then later as a full stack developer, as part of core team at this agency that built web sites for high end clients such as Cineplex Galaxy Theatres.",
+      "Initally as front-end developer, and then later as a full stack developer, I was part of the core team at this agency that built web sites for high end clients such as Cineplex Galaxy Theatres.",
     icon: React.createElement(CgWorkAlt),
     date: "2003-2006",
   },
@@ -90,7 +90,7 @@ export const experiencesData = [
     company: "Connect Media Solutions",
     location: "Markham, ON",
     description:
-      "• Launched and managed local advertising program (iShopLocally.ca) in Markham Region • Built company web site to serve ads and coupons for local businesses.",
+      "Launched and managed local advertising program (iShopLocally.ca) in Markham Region. Built company web site to serve ads and coupons for local businesses.",
     icon: React.createElement(CgWorkAlt),
     date: "2006-2009",
   },
@@ -112,7 +112,7 @@ export const projectsData = [
     title: "Click To Learn LMS",
     company: "Elearnology Inc.",
     description:
-      "I rebuilt the Online Leader platform in 2023 to run on Vercel, and Planetscale. It is rewritten using React/Next.js and Prisma. It is a full-featured LMS with xAPI support.",
+      "I rebuilt the Online Leader platform in 2023 to run in React/Next.js with Prisma as the ORM. I also migrated the hosting platform from a monolithic single server infrastructure, to a distributed plan with app hosting on Vercel, MySQL with version control on Planetscale, and Object storage on Linode. It is a full-featured LMS with xAPI support, and integrates with a MongoDB-driven LRS on a Linux instance on Linode.",
     tags: [
       "React",
       "Next.js",
@@ -148,7 +148,7 @@ export const projectsData = [
     title: "Parks & Rec Ontario HIGH FIVE National Database",
     company: "Elearnology Inc.",
     description:
-      "I provided support services for this legacy web application for 4 years. It was a challenging site to maintain due to the complexity of the code and the lack of documentation.",
+      "I provided critical support services as the developer of record for this legacy web application for over 4 years. It is an important application that manages hundreds of thousands of users' certifcations and training records for the HIGHFIVE national program. It was a challenging platform to maintain due to the complexity of the code and the lack of documentation.",
     tags: ["ASP.NET", "MSSQL", "Stored Procedures", "Table Adapters", "Legacy"],
     imageUrl: "/highfive.jpg",
   },
@@ -156,7 +156,7 @@ export const projectsData = [
     title: "George Brown College 'Choices' Career Course",
     company: "Elearnology Inc.",
     description:
-      "I created and configured the Choices course on George Brown College's Canvas LMS system. I also enhanced the course by building a custom service on an external server to generate AODA-compliant Student Action Plan pdfs.",
+      "I created and configured the Choices Careers course on George Brown College's Canvas LMS system. Each module in the course allowed students to save certain answers they entered, and at the end of the course create a dynamically generated Action Plan PDF that the student could keep. This feature was accomplished by adding custom Javascript calls to a purpose-built REST API I built on an external server which managed their Action Plan data. In addition, the generated pdfs were generated with fonts matching the design theme of the course content, as well as being screen-reader and AODA-compliant which was a challenging requirement.",
     tags: [
       "Javscript",
       ".NET",
@@ -180,7 +180,7 @@ export const projectsData = [
     title: "Engine Control Systems Distributor Warranty Portal",
     company: "Resonance Media + Design",
     description:
-      "I built and supported this web application for 6 years. It allowed ECS to bring their warranty management process online and provided great value.",
+      "I built and supported this web application for 6 years. It allowed ECS to bring their warranty management process online and provided great value to the company by greatly reducing their paper management within the warranty process t.",
     tags: ["ASP.NET", "MSSQL", "Table Adapters", "Legacy"],
     imageUrl: "/cdti.jpg",
   },
@@ -189,7 +189,7 @@ export const projectsData = [
     title: "Centreville Amusement Park Web Site (centreisland.ca)",
     company: "Resonance Media + Design",
     description:
-      "I built this app and supported it for three years. It was the official marketing site for Centreville Amusement Park on Toronto Island. I also built a custom integration with the Moneris payment gateway to allow for online ticket sales, with print tickets that had dynamically generated barcodes.",
+      "I designed and built this web app and supported it for three years. It was the official marketing site for Centreville Amusement Park on Toronto Island. I also built a custom integration with the Moneris payment gateway to allow for online ticket sales, with print tickets that had dynamically generated barcodes that could be scanned at the ticket counter.",
     tags: [
       "ASP.NET",
       "MSSQL",
@@ -205,7 +205,7 @@ export const projectsData = [
     title: "Cineplex Galaxy Theatres (cineplex.ca",
     company: "Zeppelin Communications Inc.",
     description:
-      "Contributed to the design and build of the national web site for Cineplex Galaxy Theatres. Became the lead developer on the project, and ccontributed daily content updates, and feature additions for over three years. ",
+      "Created the final UI design of the site that was approved by Cineplex Marketing VP. Part of team to build out the web application, focussing mostly on front end layout. Later on, became the lead developer on the project, responsible for front and back end management of the site. Monitored nightly database feed updates, and contributed daily content updates, and feature additions for over three years. ",
     tags: ["ASP.NET", "MSSQL", "Stored Procedures", "Table Adapters", "Legacy"],
     imageUrl: "/cineplex_site.jpg",
   },

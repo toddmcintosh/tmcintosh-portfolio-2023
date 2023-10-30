@@ -23,7 +23,7 @@ export default function About() {
         <p className="mb-4">
           After graduating with a BFA degree from{" "}
           <span className="font-medium">York University</span> and a diploma
-          from OIART, I pursed my interests in music and studio engineering.
+          from OIART, I pursued my interests in music and studio engineering.
           While doing this, I gained exposure to design work and web
           programming. This eventually evolved into a passion for building web
           sites and applications, as I grew in my understanding of how the
@@ -31,7 +31,7 @@ export default function About() {
         </p>
         <p className="mb-4">
           Over the years, I have worked in various places, but am now running my
-          own freelance web devlopment business, and enjoy life with my wife and
+          own development consultancy, and enjoy life with my wife and
           four kids at our home in Markham, ON.
         </p>
         <p className="mb-4">
