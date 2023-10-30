@@ -202,7 +202,7 @@ export const projectsData = [
     imageUrl: "/centreville.jpg",
   },
   {
-    title: "Cineplex Galaxy Theatres (cineplex.ca",
+    title: "Cineplex Galaxy Theatres (www.cineplex.ca)",
     company: "Zeppelin Communications Inc.",
     description:
       "Created the final UI design of the site that was approved by Cineplex Marketing VP. Part of team to build out the web application, focussing mostly on front end layout. Later on, became the lead developer on the project, responsible for front and back end management of the site. Monitored nightly database feed updates, and contributed daily content updates, and feature additions for over three years. ",
