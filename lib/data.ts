@@ -86,7 +86,7 @@ export const experiencesData = [
     date: "2003-2006",
   },
   {
-    title: "Partner/Full-Stack Developer",
+    title: "Co-Founder/Full-Stack Developer",
     company: "Connect Media Solutions",
     location: "Markham, ON",
     description:
@@ -98,7 +98,7 @@ export const experiencesData = [
     title: "Principal/Full-Stack Developer",
     company: "Resonance Media + Design",
     location: "Markham, ON",
-    description: `Built and supported numerous web applications for 30+ clients, as well as some marketing
+    description: `Built and supported numerous web applications for many clients, as well as some marketing
 web sites. Manage Vercel, Linode, and Planetscale accounts for React applications, VPS (Windows
 Server/Plesk) for .NET applications, and client domains via OpenSRS registry service.
 `,
