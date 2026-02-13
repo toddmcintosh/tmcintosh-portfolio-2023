@@ -23,7 +23,7 @@ export default function History() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
+      id="history"
     >
       <SectionHeading>History</SectionHeading>
       <div className="mb-16">
@@ -40,8 +40,8 @@ export default function History() {
         <p className="mb-6">
           During that position, the opportunity arose to contribute to an online
           eCommerce Music web site to sell albums (physical CD's) for the
-          company. A more experienced developer built the initial version, while I 
-          worked on the front-end dev and became the site maintainer.
+          company. A more experienced developer built the initial version, while
+          I worked on the front-end dev and became the site maintainer.
         </p>
         <CallOut>
           <>
@@ -177,7 +177,8 @@ export default function History() {
             <ul className={listStyle}>
               <li className={listItem}>
                 Rebuilt entire Online Leader LMS as a serverless platform using
-                Next.Js, Vercel, Planetscale (MySQL), with S3 object store on Linode.
+                Next.Js, Vercel, Planetscale (MySQL), with S3 object store on
+                Linode.
               </li>
               <li className={listItem}>
                 Migrated user data from MSSQL database to MySQL database in
@@ -193,8 +194,8 @@ export default function History() {
                   <li className={listItem}>Moving to a more modern stack</li>
                   <li className={listItem}>Improving performance</li>
                   <li className={listItem}>
-                    Moving from monolithic server hosting to separate specialist vendors
-                    for each domain (app, db, object store)
+                    Moving from monolithic server hosting to separate specialist
+                    vendors for each domain (app, db, object store)
                   </li>
                 </ul>
               </li>

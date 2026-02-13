@@ -12,10 +12,10 @@ export const links = [
     name: "Home",
     hash: "#home",
   },
-  {
-    name: "About",
-    hash: "#about",
-  },
+  // {
+  //   name: "About",
+  //   hash: "#about",
+  // },
   {
     name: "Projects",
     hash: "#projects",
@@ -41,11 +41,11 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Completed BFA in Music",
+    title: "Completed BA",
     company: "York University",
     location: "Vaughn, ON",
     description:
-      "While studying music and audio recording at York, I was exposed to HTML and CSS coding, animation and early web design skills in an Interactive Multimedia course.",
+      "Completed bachelor's degree at York. Had opportunities to learn HTML and CSS coding, animation and early web design skills in an Interactive Multimedia course.",
     icon: React.createElement(LuGraduationCap),
     date: "1998",
   },
@@ -108,6 +108,25 @@ Server/Plesk) for .NET applications, and client domains via OpenSRS registry ser
 ] as const;
 
 export const projectsData = [
+  {
+    title: "NRI ERP Rebuild",
+    company: "NRI Industrial Sales",
+    description:
+      "Core contributor on the engineering team tasked with  rebuilding the ERP system for NRI. This was an extensive platform that primarily provided inventory management for their global warehouse network. In addition, it provided backend management services for their web auction platform. I was involved in all aspects of the build, including models, dtos, tests, migrations, queries, and custom scripts in the backend, and UI, tables, Apollo GQL queries, CSS styling in the front end.",
+    tags: [
+      "React",
+      "Next.js",
+      "Laravel",
+      "GraphQL",
+      "Apollo",
+      "Unit Testing",
+      "Async Task Workflows",
+      "Docker",
+      "Postgres",
+      "Materials UI",
+    ],
+    imageUrl: "/nri.png",
+  },
   {
     title: "Click To Learn LMS",
     company: "Elearnology Inc.",
@@ -215,24 +234,36 @@ export const skillsData = {
   code: [
     "TypeScript",
     "JavaScript",
+    "Laravel/PHP",
+    "GraphQL",
     "Python",
     "C#",
-    "PHP",
     "Console/Bash",
     "PowerShell",
   ],
   frontend: [
-    "HTML5",
     "React",
     "Next.js",
+    "Vue.js",
+    "Material UI",
+    "Apollo",
     "CSS",
     "Tailwind",
     "Prisma",
     "Bootstrap",
-    "jQuery",
+    "HTML5",
   ],
-  backend: [".NET Core", "REST API's", "Node.js", "NextAuth.js"],
-  db: ["PlanetScale", "MongoDB", "SQL", "MySQL", "MSSQL"],
+  backend: [
+    "Laravel",
+    "Docker",
+    "AWS",
+    "Artisan/Tinker",
+    ".NET Core",
+    "REST API's",
+    "Node.js",
+    "NextAuth.js",
+  ],
+  db: ["Postgres", "PlanetScale", "MongoDB", "SQL", "MySQL", "MSSQL"],
   design: ["Figma", "Illustrator", "Photoshop"],
   elearning: [
     "LMS/LRS Integrations",
@@ -241,6 +272,8 @@ export const skillsData = {
     "Articulate Storyline360/Rise360",
   ],
   hosting: [
+    "Github/Actions",
+    "Docker",
     "Vercel",
     "Linode",
     "AWS",
@@ -258,13 +291,14 @@ export const skillsData = {
     "Moneris",
   ],
   ide: [
-    "Visual Studio",
+    "neovim/vim",
+    "Sublime Text",
     "Visual Studio Code",
+    "Visual Studio",
     "Microsoft SQL Server Management Studio",
     "Eclipse",
-    "Sublime Text",
   ],
-  cicd: ["Git", "GitHub", "BitBucket"],
+  cicd: ["Git", "GitHub/Actions", "BitBucket"],
 
   other: [
     "Responsive Design",
@@ -277,6 +311,5 @@ export const skillsData = {
     "AODA Compliance",
     "Screen Reader Compatibility",
     "ASP.NET (Legacy)",
-    "Blender 3D",
   ],
 } as const;

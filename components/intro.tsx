@@ -62,14 +62,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-medium block text-6xl mb-4 text-black-800 dark:text-blue-100">
+        <span className="font-medium block text-4xl mb-4 text-black-800 dark:text-blue-100">
           Hi! I'm Todd.
         </span>
         <span className="mb-6 block text-gray-600 dark:text-blue-100">
           <span className="">I'm a </span>
-          <span className="font-bold ">full-stack developer </span>
+          <span className="font-bold ">full-stack software engineer </span>
           <span className="">with </span>
-          <span className="font-bold">20 years </span>
+          <span className="font-bold">10+ years </span>
           <span className="">of experience.</span>
         </span>
         <span className="text-xl mb-16 block border rounded-lg md:rounded-full border-white border-opacity-20 py-2 px-4">
@@ -78,19 +78,21 @@ export default function Intro() {
             <span className="text-base m-2 font-bold bg-white inline-block p-2  px-4 rounded-full bg-opacity-10">
               DO REAL WORK
             </span>
-            <span className="">and sites that</span>
+            <span className="">and deliver</span>
             <span className="text-base m-2 font-bold bg-white inline-block py-2 px-4 rounded-full bg-opacity-10">
-              TELL GREAT STORIES.
+              REAL VALUE
             </span>
+            <span className="">to each product owner and customer alike.</span>
           </span>
         </span>
 
         <div className="text-2xl mb-16 text-white">
           <span className="block">
-            My current focus is Serverless Web Applications, specifically with
+            My current focus is Cloud-based Web Applications, specifically with
           </span>
           <span className="block">
-            React (Next.js), Prisma, Planetscale, and Tailwind CSS.
+            React (Next.js), Laravel, Python, Graphql, Postgres, MongoDB, Docker
+            and AWS.
           </span>
         </div>
       </motion.h1>
@@ -117,7 +119,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Todd_McIntosh_Senior_Fullstack_Engineer.pdf"
           download
         >
           Download CV{" "}
