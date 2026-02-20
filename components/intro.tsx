@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/ToddPhoto2022_cropped.jpg?fit=crop&w=368&h=368&q=100"
+              src="/tmacdev.png?fit=crop&w=368&h=368&q=100"
               alt="Todd portrait"
               width="192"
               height="192"
@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-medium block text-4xl mb-4 text-black-800 dark:text-blue-100">
-          Hi! I'm Todd.
+          Hello! I'm Todd.
         </span>
         <span className="mb-6 block text-gray-600 dark:text-blue-100">
           <span className="">I'm a </span>
