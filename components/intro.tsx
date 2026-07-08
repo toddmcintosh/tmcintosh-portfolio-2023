@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/tmacdev.png?fit=crop&w=368&h=368&q=100"
+              src="/tmacdev_smoothed_bn2.png?fit=crop&w=368&h=368&q=100"
               alt="Todd portrait"
               width="192"
               height="192"
@@ -88,11 +88,12 @@ export default function Intro() {
 
         <div className="text-2xl mb-16 text-white">
           <span className="block">
-            My current focus is Cloud-based Web Applications, specifically with
+            My current focus is Cloud-based Products or Platforms specifically
+            with
           </span>
           <span className="block">
-            React (Next.js), Laravel, Python, Graphql, Postgres, MongoDB, Docker
-            and AWS.
+            React (Next.js), Laravel, Python, Graphql, Postgres, MongoDB,
+            Docker, C#, .NET and AWS.
           </span>
         </div>
       </motion.h1>
